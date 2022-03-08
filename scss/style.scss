@@ -43,8 +43,10 @@ body{
 .section_noticias {
      background-color: color('bgcolor');
      font-family: $texto-principal;
-
-    @include cards;
+    .border_card{
+        @include cards;
+    }
+    
 }
 
 /*TEMPORADAS INDEX*/
@@ -55,7 +57,11 @@ body{
 }     
 
 
+// GALERIA
 
+.border_galeria{
+    @include cards;
+}
 
 
 

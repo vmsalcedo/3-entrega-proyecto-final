@@ -16,18 +16,22 @@
   }
 }
 
+.nav-item :hover {
+  color: white !important;
+}
+
 /* FOOTER*/
 footer {
   /* map-get*/
-  background-color: #0c900c;
+  background-color: #095d09;
 }
 footer .imagen_footer {
-  border: solid 8px white;
+  border: solid 6px white;
   border-radius: 50px;
   overflow: hidden;
 }
 footer .imagen_footer:hover {
-  width: 35%;
+  border: 10px solid #095d09;
 }
 
 /* BODY */
@@ -56,11 +60,11 @@ body {
 
 /* NOTICIAS INDEX*/
 .section_noticias {
-  background-color: #0c900c;
+  background-color: #095d09;
   font-family: "Roboto", sans-serif;
 }
 .section_noticias .border_card {
-  border: solid 5px #095d09;
+  border: solid 5px #FFD32D;
   border-radius: 18px;
   overflow: hidden;
   transition: all ease-out 0.9s;
@@ -70,13 +74,23 @@ body {
 }
 
 /*TEMPORADAS INDEX*/
-.border_card_temporadas .border_card {
-  border: solid 5px #095d09;
+.border_card_temporadas {
+  border: solid 5px #FFD32D;
   border-radius: 18px;
   overflow: hidden;
   transition: all ease-out 0.9s;
 }
-.border_card_temporadas .border_card:hover {
+.border_card_temporadas:hover {
+  transform: scale(1.08);
+}
+
+.border_galeria {
+  border: solid 5px #FFD32D;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+}
+.border_galeria:hover {
   transform: scale(1.08);
 }
 
