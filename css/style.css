@@ -22,7 +22,7 @@ footer {
   background-color: #0c900c;
 }
 footer .imagen_footer {
-  border: bordes("borde-link-redes");
+  border: solid 8px white;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -60,8 +60,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .section_noticias .border_card {
-  border: solid 10px bordes("borde-card-color");
-  border-radius: bordes("borde-radius-1");
+  border: solid 5px #095d09;
+  border-radius: 18px;
   overflow: hidden;
   transition: all ease-out 0.9s;
 }
@@ -71,8 +71,8 @@ body {
 
 /*TEMPORADAS INDEX*/
 .border_card_temporadas .border_card {
-  border: solid 10px bordes("borde-card-color");
-  border-radius: bordes("borde-radius-1");
+  border: solid 5px #095d09;
+  border-radius: 18px;
   overflow: hidden;
   transition: all ease-out 0.9s;
 }

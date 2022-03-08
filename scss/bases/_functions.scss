@@ -4,6 +4,6 @@
 };
 
 
-@function borde($name) {
+@function bordes($name) {
     @return map-get($map: $bordes, $key: $name )
 };
